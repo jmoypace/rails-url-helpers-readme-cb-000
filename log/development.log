@@ -12,3 +12,7 @@ Migrating to CreatePosts (20151230232412)
 
 
 Started GET "/" for 71.183.96.69 at 2019-07-03 16:16:28 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/railties-4.2.11.1/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 19ms (Views: 11.5ms | ActiveRecord: 0.0ms)
